@@ -1,0 +1,22 @@
+span {
+  text-align: center;
+  width: 150px;
+  background-color: rgb(243, 78, 78);
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.card {
+  margin: 50px 5px;
+  border: 2px solid #5a5959;
+  
+}
+
+.card-body {
+  height: 50px;
+  background-color: rgb(88, 174, 245);
+}

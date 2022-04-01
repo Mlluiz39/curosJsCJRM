@@ -1,0 +1,47 @@
+.popup-wrapper {
+  display: none;
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  margin: 18% auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.popup-close-x {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+span {
+  padding: 10px;
+  color: #fff;
+  background-color: rgba(0, 89, 255, 0.856);
+  border-radius: 5px;
+}
+h3 {
+  color: chocolate;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.paragraph {
+  padding: 10px;
+ font-size: 18px;
+ font-style: italic;
+ font-weight: 100;
+}

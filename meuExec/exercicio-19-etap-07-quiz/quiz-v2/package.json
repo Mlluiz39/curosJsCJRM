@@ -1,0 +1,16 @@
+{
+  "name": "quiz-v2",
+  "version": "2.0.0",
+  "description": "segunda versão do quiz",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Luiz",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "darkmode-js": "^1.5.7",
+    "install": "^0.13.0"
+  }
+}

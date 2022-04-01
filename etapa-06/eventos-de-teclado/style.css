@@ -1,0 +1,47 @@
+body  {
+    background-color: #eee;
+  
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 200px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.btn-active {
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+    outline-style: none; 
+}
+
+.success {
+    border: 2px solid green;
+}
+
+.error {
+    border: 2px solid red;
+}

@@ -1,0 +1,19 @@
+.error {
+  padding: 15px;
+  font-weight: bold;
+  color: crimson;
+  border: 1px dotted crimson;
+}
+
+.success {
+  padding: 15px;
+  font-weight: bold;
+  color: green;
+  border: 1px dotted green;
+}
+
+.test {
+  color: blue;
+  font-size: 36px;
+  font-style: italic;
+}

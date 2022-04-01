@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Quiz | Você conhece algo sobre o coronavirus?</title>
+</head>
+<body>
+  <div class="intro py-3 bg-main text-center">
+    <div class="container">
+      <h2 class="text-main display-3 my-4">Quiz</h2>
+    </div>
+  </div>
+  <div class="result py-4 d-none bg-main text-center">
+    <div class="container lead">
+      <p class="text-main">
+        Você acertou <span class="text-dark display-4 p-3">0%</span>
+        do quiz!
+      </p>
+    </div>
+  </div>
+
+  <div class="quiz py-4 bg-gray">
+    <div class="container">
+      <h2 class="my-5 text-dark">O que você conhece da COVID-19?</h2>
+    <form class="quiz-form text-dark">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. A internação é necessaria para todos os casos positivos ?</p>
+          <div class="form-check my-2 text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="A">
+              Sim
+            </label>
+          </div>
+          <div class="form-check my-2 text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="B">
+             Não
+            </label>
+          </div>
+          <div class="form-check my-2  text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="C">
+             Nenhuma das alternativas
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Qual é o tempo de incubação do COVID-19:</p>
+          <div class="form-check my-2  text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="A">
+              2 a 14 dias
+            </label>
+          </div>
+          <div class="form-check my-2 text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="B">
+              1 a 10 dias
+            </label>
+          </div>
+          <div class="form-check my-2  text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="C">
+            15 dias
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. Qual a quantidade maxima de sintomas uma pessoa pode ter:</p>
+          <div class="form-check my-2  text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="A">
+             3
+            </label>
+          </div>
+          <div class="form-check my-2 text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="B">
+              1
+            </label>
+          </div>
+          <div class="form-check my-2  text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="C">
+              9
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. Qual máscara uma pessoa que suspeita ter COVID-19 deve usar ?</p>
+          <div class="form-check my-2  text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="A">
+              Cirúrgica
+            </label>
+          </div>
+          <div class="form-check my-2 text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="B">
+              N95
+            </label>
+          </div>
+          <div class="form-check my-2  text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="C">
+             Pano
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">5. Como é a propagação da COVID-19:</p>
+          <div class="form-check my-2 text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion5" value="A">
+             pelo ar
+            </label>
+          </div>
+          <div class="form-check my-2  text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion5" value="B">
+              por meio de gotículas do nariz ou boca
+            </label>
+          </div>
+          <div class="form-check my-2 text-dark">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion5" value="C">
+             Não sei
+            </label>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn bg-primary text-light">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
